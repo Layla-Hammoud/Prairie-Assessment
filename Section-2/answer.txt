@@ -33,3 +33,20 @@ CREATE TABLE department(
     office VARCHAR(250)
     topic VARCHAR(250)
 )
+4,1
+SELECT first_name last_name rank,
+from mentors,
+
+4,2 SELECT * instructors,
+FROM department ,
+WHERE office == '333'
+
+4,3
+SELECT * instructors,
+FROM instructors,
+WHERE salary > 1000,
+
+4,4
+SELECT first_name last_name instructors rank,
+FROM instructors
+WHERE salary > 1000
