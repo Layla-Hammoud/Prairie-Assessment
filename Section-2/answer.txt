@@ -1,0 +1,35 @@
+CREATE TABLE cohort(
+    id INT PRIMARY KEY,
+    start_date DATE,
+    end_date DATE,
+    number INT
+)
+CREATE TABLE student(
+    id INT PRIMARY KEY,
+    first_name VARCHAR(250),
+    dob DATE,
+    skill VARCHAR(250)
+)
+CREATE TABLE topic(
+    id INT PRIMARY KEY,
+    title VARCHAR(250),
+    mentor_id INT,
+    title VARCHAR(250)
+    description VARCHAR(250)
+    FOREIGN_KEY(mentor_id)
+)
+CREATE TABLE mentor(
+    id INT PRIMARY KEY,
+    SSN INT,
+    seniority_level VARCHAR(250),
+    DOB DATE,
+    salary INT
+    office VARCHAR(250),
+    topic_speciality VARCHAR(250)
+)
+CREATE TABLE department(
+    id INT PRIMARY KEY,
+    name VARCHAR(250),
+    office VARCHAR(250)
+    topic VARCHAR(250)
+)
