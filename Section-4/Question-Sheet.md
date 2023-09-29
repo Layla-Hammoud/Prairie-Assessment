@@ -67,4 +67,4 @@ C. The state is a built-in React object that is used to contain data or informat
 D. State is a routing library built on top of React, which is used to set values in a React application. 
 
 Answer:
-C. The state is a built-in React object that is used to contain data or information about the component. The state in a component can change over time, and whenever it changes, the component re-renders.
+C. The state is a built-in React object that is used to contain data or information about the component. The state in a component can change over time, and whenever it changes, the component re-renders..
